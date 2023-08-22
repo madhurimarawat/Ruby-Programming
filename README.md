@@ -19,7 +19,7 @@ This repository contains programs in the Ruby Programming Language.
 --> Now there is irb(interactive ruby) in which we can directly write and execute ruby codes without having to create file.<br><br>
 --> To use this simply type irb in command prompt of system.<br><br>
 --> The problem with this is that once you exit the console, code will be deleted.<br><br>
---> To avoid this write ruby code in any text editor or IDE.<br><br>
+--> To avoid this write ruby code in any text editor or IDE and save the file with extention .rb .<br><br>
 --> Then just open the console and run this command-<br><br>
 
 ```
