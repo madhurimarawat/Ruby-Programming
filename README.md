@@ -36,6 +36,10 @@ This repository contains programs in the Ruby Programming Language.
 --> Gems can be used to extend or modify functionality in Ruby applications.<br><br>
 --> Commonly they’re used to distribute reusable functionality that is for use in applications and libraries.<br><br>
 --> Some gems provide command line utilities to help automate tasks and speed up work.
+--> To install pRuby gems this command is used-
+```
+gem install gem_name 
+```
 
 ---
 
