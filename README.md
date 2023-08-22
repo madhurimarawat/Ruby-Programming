@@ -17,10 +17,15 @@ This repository contains programs in the Ruby Programming Language.
 --> Download Ruby according to the platform being used like Linux, MacOs or Windows.<br><br>
 --> Follow the setup wizard.<br><br>
 --> Now there is irb(interactive ruby) in which we can directly write and execute ruby codes without having to create file.<br><br>
---> To use this simple type irb in command prompt of system.<br><br>
+--> To use this simply type irb in command prompt of system.<br><br>
 --> The problem with this is that once you exit the console, code will be deleted.<br><br>
 --> To avoid this write ruby code in any text editor or IDE.<br><br>
---> Then just open the console and runt this command ruby filename.rb (filename is the name of the Ruby script) and output will be displayed.
+--> Then just open the console and run this command-<br><br>
+
+```
+ruby filename.rb
+```
+Filename is the name of the Ruby script and output will be displayed.
 <h2>Komodo IDE</h2>
 --> Visit <a href="https://github.com/ActiveState/OpenKomodoIDE/releases"><img src="https://th.bing.com/th/id/R.867a8cd55ef989b2f5bac14fdf629e4b?rik=znGQGWA%2faYKlog&riu=http%3a%2f%2ficons.iconarchive.com%2ficons%2fpapirus-team%2fpapirus-apps%2f512%2fkomodo-icon.png&ehk=aWPRlGNwswtsl5aMHlkF%2f78DK4boKtzEDmPjSSEMshU%3d&risl=&pid=ImgRaw&r=0" title="Komodo IDE" alt="Komodo IDE" width="40" height="40"/></a> and download according the platform to be used.<br><br>
 --> Create account in &nbsp: <a href="https://www.activestate.com/"><img src="https://cdn.sanity.io/images/pz7nxv9z/production/6a696aa8dd5e607eaa1f325c56a61c7c39a18b34-2000x361.png?h=80" height=30px width=30px></a><br> <br>
