@@ -25,11 +25,13 @@ This repository contains programs in the Ruby Programming Language.
 ```
 ruby filename.rb
 ```
-Filename is the name of the Ruby script and output will be displayed.
+Filename is the name of the Ruby script and output will be displayed after running this command.
 <h2>Komodo IDE</h2>
 --> Visit <a href="https://github.com/ActiveState/OpenKomodoIDE/releases"><img src="https://th.bing.com/th/id/R.867a8cd55ef989b2f5bac14fdf629e4b?rik=znGQGWA%2faYKlog&riu=http%3a%2f%2ficons.iconarchive.com%2ficons%2fpapirus-team%2fpapirus-apps%2f512%2fkomodo-icon.png&ehk=aWPRlGNwswtsl5aMHlkF%2f78DK4boKtzEDmPjSSEMshU%3d&risl=&pid=ImgRaw&r=0" title="Komodo IDE" alt="Komodo IDE" width="40" height="40"/></a> and download according the platform to be used.<br><br>
 --> Create account in &nbsp: <a href="https://www.activestate.com/"><img src="https://cdn.sanity.io/images/pz7nxv9z/production/6a696aa8dd5e607eaa1f325c56a61c7c39a18b34-2000x361.png?h=80" height=30px width=30px></a><br> <br>
---> Login in Komodo using this account and now komodo IDE can be used. <br>
+--> Login in Komodo using this account and now komodo IDE can be used. <br><br>
+--> This is a multi-language IDE and we can run more than one programming langauge in this.<br><br>
+--> We can also execute Ruby code directly by clicking on the ⚡icon in this IDE.
 
 ---
 # Features of Ruby
