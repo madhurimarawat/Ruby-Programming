@@ -6,6 +6,9 @@ name =gets
 puts "Hello #{name},Have a Good Day!"
 
 # gets by default take a newline as input, to remove this we can use chomp
+# Chomp is used to remove given argument from a variable
+# If we does not give any argument it takes newline as default argument
+# We are using this here for the newline
 print "Enter your Name: "
 name =gets.chomp
 
