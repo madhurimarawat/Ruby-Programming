@@ -153,7 +153,7 @@ until co_3==5
  # It can be printed by combining above four patterns
  # Nesting will be required as well
  
- puts "\nRhombus Star Pattern using While loop is: ","\n"
+ puts "\nRhombus Star Pattern using Two While loop in Even number of stars is: ","\n"
  
  # For first row as we need only one * in first row
  # Since we have total 10 max stars and 10/2 = 5 now each star has a space in between that means the first star will have-
@@ -240,8 +240,7 @@ until co_3==5
        j-=1
        
        # As we need to print twice the number of stars
-       print "* "
-       print "* "
+       print "* "*2
        
        # Specially for the last row else the loop terminates without printing one star at the end
        if i==5
@@ -270,7 +269,7 @@ until co_3==5
 print "Enter the Number of Rows: "
 n=gets.chomp.to_i
 
-puts "\nRhombus Star Pattern using While loop for #{n} number of rows is: ","\n"
+puts "\nRhombus Star Pattern using Two While loop for #{n} number of rows in Even number of stars is: ","\n"
  
  # For first row as we need only one * in first row
  # Since we have total 10 max stars and 10/2 = 5 now each star has a space in between that means the first star will have-
@@ -308,8 +307,7 @@ puts "\nRhombus Star Pattern using While loop for #{n} number of rows is: ","\n"
    while j<=i
     
       # Printing two stars as we are trying to print rhombus pattern which will require twice as star as normal pattern
-      print "* "
-      print "* "
+      print "* "*2
       
       # Incrementing j
       j+=1
@@ -357,8 +355,7 @@ puts "\nRhombus Star Pattern using While loop for #{n} number of rows is: ","\n"
        j-=1
        
        # As we need to print twice the number of stars
-       print "* "
-       print "* "
+       print "* "*2
        
        # Specially for the last row else the loop terminates without printing one star at the end
        if i==n
@@ -381,4 +378,55 @@ puts "\nRhombus Star Pattern using While loop for #{n} number of rows is: ","\n"
    i+=1
    
  # End of loop for printing bottam pattern  
- end
+end
+
+# Printing with One loop
+i=1
+
+# Spaces will be one less than the total number of rows
+spaces = n - 1
+
+# In the start star variable which contains the number of stars to be printed will be 1
+star=1
+
+print "Enter the Number of Rows: "
+n=gets.chomp.to_i
+
+puts "\nRhombus Star Pattern using One While loop for #{n} number of rows in Odd number of stars is: ","\n"
+
+# Loop to print the pattern according to the number of rows
+# Here it is printed in odd numbers
+
+while i <= (n * 2 -1 )
+ 
+    # Main statement which prints the star and space
+    # Instead of having a different loop for star and space we are simply taking variable here and incrementing/decrementing them
+    print " " * spaces + "*" * star + "\n"
+    
+    # This condition is for the above pattern
+    if i < n
+      
+       # Space is decreasing in this
+       spaces -= 1
+       
+       # Number of stars is increasing
+       star += 2
+       
+    # This condition is for the bottam pattern  
+   else
+   
+     # Space is increasing in this
+     spaces += 1
+     
+     # Number of stars is decreasing
+     star -= 2
+     
+    # Ending of the conditional statement
+   end
+   
+    # Incrementing i (Number of Rows)
+    i+=1
+    
+# Ending of the outer loop     
+end
+
