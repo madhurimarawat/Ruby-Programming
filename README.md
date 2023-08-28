@@ -42,8 +42,8 @@ Filename is the name of the Ruby script and output will be displayed after runni
 --> The software package is called a “gem” which contains a packaged Ruby application or library.<br><br>
 --> Gems can be used to extend or modify functionality in Ruby applications.<br><br>
 --> Commonly they’re used to distribute reusable functionality that is for use in applications and libraries.<br><br>
---> Some gems provide command line utilities to help automate tasks and speed up work.
---> To install pRuby gems this command is used-
+--> Some gems provide command line utilities to help automate tasks and speed up work.<br><br>
+--> To install Ruby gems this command is used-
 ```
 gem install gem_name 
 ```
