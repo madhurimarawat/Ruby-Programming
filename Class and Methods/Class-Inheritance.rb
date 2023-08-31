@@ -196,7 +196,7 @@ puts "\nChild Class Car 1"
 
 # Accessing Functions of Parent Class
 puts "Starting Vehicle:"
-v.start
+c.start
 
 # Accessing Functions of Child Class
 puts c.make
@@ -206,9 +206,9 @@ c.Music_on
 
 # Accessing Functions of Parent Class
 puts "Accelerating:"
-v.accelerate
+c.accelerate
 puts "Stopping:"
-v.brake
+c.brake
 
 # Creating Object of Child Class Motorcycle
 m=Motorcycle_1.new("Honda Shine")
