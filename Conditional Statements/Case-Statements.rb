@@ -22,7 +22,7 @@ else
   puts "No Condition Matched"
 end
     
-# Predicting grades based on marks
+# Printing Message Based on Grade
 print "Enter Your Grade: "
 grade_1=gets.chomp
 
