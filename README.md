@@ -35,7 +35,7 @@ Filename is the name of the Ruby script and output will be displayed after runni
 
 ---
 # Features of Ruby
-<img src="https://static.javatpoint.com/ruby/images/features-of-ruby.png" height=400px width=600px>
+<img src="https://www.monocubed.com/wp-content/uploads/2022/04/features-of-ruby.jpg" height=400px width=600px>
 
 ---
 # Gems in Ruby 📚
@@ -53,4 +53,4 @@ gem install gem_name
 Drop a 🌟 if you find this repository useful.<br><br>
 If you have any doubts or suggestions, feel free to reach me.<br><br>
 📫 How to reach me:  &nbsp; [![Linkedin Badge](https://img.shields.io/badge/-madhurima-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/madhurima-rawat/) &nbsp; &nbsp;
-<a href ="mailto:rawatmadhurima@gmail.com"><img src="https://github.com/madhurimarawat/Machine-Learning-Using-Python/assets/105432776/b6a0873a-e961-42c0-8fbf-ab65828c961a" height=35 width=30 title="Mail Illustration" alt="Mail Illustration📫" > </a>
+<a href ="mailto:rawatmadhurima4@gmail.com"><img src="https://github.com/madhurimarawat/Machine-Learning-Using-Python/assets/105432776/b6a0873a-e961-42c0-8fbf-ab65828c961a" height=35 width=30 title="Mail Illustration" alt="Mail Illustration📫" > </a>
